@@ -29,9 +29,7 @@
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <a class="p-2 link-secondary text-danger" href="#">Carta</a>
-                <a class="p-2 link-secondary text-danger" href="#">Localització</a>
                 <a class="p-2 link-secondary text-danger" href="#">Fer reserva</a>
-                <a class="p-2 link-secondary text-danger" href="./horari.html" target="_blank">Horari</a>
             </nav>
         </div>
     </div>
@@ -44,17 +42,51 @@
                 <p class="lead mb-0"><a href="#" class="text-dark fw-bold">Ver carta</a></p>
             </div>
         </div>
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.47419590399!2d2.6885949754079537!3d39.59399917158377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793084033bf85%3A0x9b3d6cac0c704674!2sLa%20Esquinita%20de%20Paco!5e0!3m2!1ses!2ses!4v1700852330623!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapaHorario">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.47419590399!2d2.6885949754079537!3d39.59399917158377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793084033bf85%3A0x9b3d6cac0c704674!2sLa%20Esquinita%20de%20Paco!5e0!3m2!1ses!2ses!4v1700852330623!5m2!1ses!2ses"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="horario">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dilluns</th>
+                            <th>Dimarts</th>
+                            <th>Dimecres</th>
+                            <th>Dijous</th>
+                            <th>Divendres</th>
+                            <th>Dissabte</th>
+                            <th>Diumenge</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="closed">CERRADO</td>
+                            <td>7:30-00:00</td>
+                            <td>7:30-00:00</td>
+                            <td>7:30-00:00</td>
+                            <td>7:30-00:00</td>
+                            <td>7:30-00:00</td>
+                            <td>7:30-17:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </main>
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">Twitter</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">Instagram</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">esquinitaPaco@gmail</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">971349578</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">Instagram</a>
+                </li>
+                <li class="nav-item"><a href="#"
+                        class="nav-link px-2 text-body-secondary text-danger">esquinitaPaco@gmail</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary text-danger">971349578</a>
+                </li>
             </ul>
             <p class="text-center text-body-secondary">La Esquinita de Paco &reg; </p>
         </footer>

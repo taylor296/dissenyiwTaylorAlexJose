@@ -2,3 +2,34 @@
     background-image: url(./img/paella.jpg);
     background-size: cover;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #d1f7d4; /* Fondo verde claro para las horas abiertas */
+}
+
+td.closed {
+    background-color: #f7d1d4; /* Fondo rojo claro para las horas cerradas */
+}
+.mapaHorario{
+    display: flex;
+    align-items: flex-start;
+}
+.horario{
+    padding-left: 5%;
+    width: 100%;
+}
