@@ -1,0 +1,16 @@
+.botones button{
+    background-color: #e40000;
+    color: white; 
+    padding: 15px 20px;
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
+}
+.botones button:hover {
+    background-color: rgb(189, 70, 34); 
+    transition: background-color 0.3s ease; 
+}
+.botones{
+    padding-top: 4%;
+    padding-left: 3%;
+}
