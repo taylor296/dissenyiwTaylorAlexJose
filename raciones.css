@@ -18,12 +18,6 @@ button:hover {
     background-color: firebrick;
 }
 
-#a1{
-    background-image: url(./img/raciones/alitas.jpg);
-    display: flex;
-    background-size: cover;
-}
-
 .card-body{
     background-color:darkred;
     color: white !important;
@@ -40,4 +34,54 @@ button:hover {
 .card-body:hover{
     background-color:firebrick;
     color: black !important;
+}
+
+
+#a1{
+    background-image: url(./img/raciones/alitas.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+
+#a2{
+    background-image: url(./img/raciones/alitasPicantes.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a3{
+    background-image: url(./img/raciones/pimientosPadron.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a4{
+    background-image: url(./img/raciones/patatasFritas.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a5{
+    background-image: url(./img/raciones/patatasBravas.jpeg);
+    display: flex;
+    background-size: cover;
+}
+
+#a6{
+    background-image: url(./img/raciones/patatasAlioli.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a7{
+    background-image: url(./img/raciones/calamaresAndaluza.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a8{
+    background-image: url(./img/raciones/huevosPatatasPim.jpg);
+    display: flex;
+    background-size: cover;
 }
