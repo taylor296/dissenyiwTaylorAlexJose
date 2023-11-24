@@ -1,16 +1,19 @@
-.botones button{
-    background-color: #e40000;
-    color: white; 
-    padding: 15px 20px;
-    border: none; 
-    border-radius: 5px; 
-    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 1%;
 }
-.botones button:hover {
-    background-color: rgb(189, 70, 34); 
-    transition: background-color 0.3s ease; 
+
+button {
+    padding: 1%;
+    border: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
 }
-.botones{
-    padding-top: 4%;
-    padding-left: 3%;
+
+button:hover {
+    background-color: firebrick;
 }
