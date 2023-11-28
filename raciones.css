@@ -1,9 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .botones {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: gray;
     padding: 1%;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
@@ -16,6 +25,11 @@ button {
 
 button:hover {
     background-color: firebrick;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
 }
 
 .card-body{
@@ -124,12 +138,6 @@ button:hover {
 
 #a15{
     background-image: url(./img/raciones/patatasFritasJamon.jpg);
-    display: flex;
-    background-size: cover;
-}
-
-#a16{
-    background-image: url(./img/raciones/nuggets.jpg);
     display: flex;
     background-size: cover;
 }
