@@ -1,0 +1,70 @@
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 1%;
+}
+
+button {
+    padding: 1%;
+    border: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: firebrick;
+}
+
+.card-body{
+    background-color:darkred;
+    color: white !important;
+}
+
+.card-body .text-muted{
+    color: white !important;
+}
+
+.card-body:hover .text-muted{
+    color: black !important;
+}
+
+.card-body:hover{
+    background-color:firebrick;
+    color: black !important;
+}
+
+
+#a1{
+    background-image: url(./img/carnes/surtidocarne.webp);
+    display: flex;
+    background-size: cover;
+}
+
+#a2{
+    background-image: url(./img/carnes/entrecot.jpg);
+    display: flex;
+    background-size: cover;
+}
+#a3{
+    background-image: url(./img/carnes/cordonblue.jpeg);
+    display: flex;
+    background-size: cover;
+}
+#a4{
+    background-image: url(./img/carnes/escalopin_empanado.webp);
+    display: flex;
+    background-size: cover;
+}
+#a5{
+    background-image: url(./img/carnes/cachopo.jpeg);
+    display: flex;
+    background-size: cover;
+}
+#a6{
+    background-image: url(./img/carnes/torreznos.jpg_large);
+    display: flex;
+    background-size: cover;
+}
