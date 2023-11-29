@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 1%;
+    border: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: firebrick;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+.card-body{
+    background-color:darkred;
+    color: white !important;
+}
+
+.card-body .text-muted{
+    color: white !important;
+}
+
+.card-body:hover .text-muted{
+    color: black !important;
+}
+
+.card-body:hover{
+    background-color:firebrick;
+    color: black !important;
+}
+
+
+#a1{
+    background-image: url(./img/desayunos/churros.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+
+#a2{
+    background-image: url(./img/desayunos/berenjenas.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a3{
+    background-image: url(./img/desayunos/fingers.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+#a4{
+    background-image: url(./img/desayunos/brie.jpg);
+    display: flex;
+    background-size: cover;
+}
