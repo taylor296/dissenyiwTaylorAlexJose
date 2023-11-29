@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-3">
                 <label for="hora" class="form-label">Hora</label>
-                <input type="datetime" class="form-control" id="hora" required>
+                <input type="time" class="form-control" id="hora" required>
                 <div class="invalid-feedback" id="error-hora">
                 </div>
             </div>
@@ -57,6 +57,9 @@
             </div>
             <div class="col-1 mx-auto">
                 <button class="btn btn-primary" type="submit">Envia</button>
+            </div>
+            <div class="col-1 mx-auto" style="display: none;" id="confirmed">
+                <p>Tu reserva s'ha registrat.</p>
             </div>
         </form>
         <script src="./reserva.js"></script>

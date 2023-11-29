@@ -4,16 +4,13 @@ const llin1 = document.querySelector("#llin1");
 const telefon = document.querySelector("#telefon");
 const dia = document.querySelector("#dia");
 const hora = document.querySelector("#hora");
+const confirmed = document.querySelector("#confirmed");
 
-
-const usuaris = ["daniel82", "manuel223", "darknight1", "mrNum.1234"];
 
 form.onsubmit = function (event) {
     form.querySelectorAll("input").forEach(element => {
         element.dispatchEvent(new Event("input"));
     });
-
-    validaCaptcha();
 
     if (!form.checkValidity()) {
         event.preventDefault();
@@ -22,6 +19,8 @@ form.onsubmit = function (event) {
     }
 
     form.classList.add('was-validated');
+
+    confirmed.style.display = "block";
 };
 
 /* Attach events oninput*/
@@ -57,32 +56,7 @@ function nomesLletres(input) {
 
     return regExp.test(input) ? "" : "Només es peremeten lletres.";
 }
-function comprovaUsuari(input, array) {
-    return array.includes(input) ? "Aquest username ja está agafat" : "";
-}
-function comprovaPassword(input) {
-    var regex = /^(?=.*\d)(?=.*[\W])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$/;
-    return regex.test(input) ? "" : "Password no segur";
-}
 function nomesNumeros(input) {
     var reg = /^[0-9]*$/;
     return reg.test(input) ? "" : "Només es peremeten números.";
-}
-function validaDNI(input) {
-    var numero, let, letra;
-    var expresion_regular_dni = /^\d{8}[A-Z]$/;
-
-    input = input.toUpperCase();
-
-    if (expresion_regular_dni.test(input) === true) {
-        numero = input.substr(0, input.length - 1);
-        let = input.substr(input.length - 1, 1);
-        numero = numero % 23;
-        letra = 'TRWAGMYFPDXBNJZSQVHLCKET';
-        letra = letra.substring(numero, numero + 1);
-        return letra != let ? "Lletra inválida" : "";
-    } else {
-        var num = /^[0-9]*$/;
-        return num.test(input) ? "" : "DNI inválid";
-    }
 }
