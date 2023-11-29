@@ -5,7 +5,7 @@ const telefon = document.querySelector("#telefon");
 const dia = document.querySelector("#dia");
 const hora = document.querySelector("#hora");
 const confirmed = document.querySelector("#confirmed");
-
+var confirm = false;
 
 form.onsubmit = function (event) {
     form.querySelectorAll("input").forEach(element => {
@@ -20,8 +20,12 @@ form.onsubmit = function (event) {
 
     form.classList.add('was-validated');
 
-    confirmed.style.display = "block";
+    confirm = true;
 };
+
+if(confirm = true) {
+    confirmed.style.display = "block";
+}
 
 /* Attach events oninput*/
 nom.oninput = function () {
