@@ -4,6 +4,7 @@ const llin1 = document.querySelector("#llin1");
 const telefon = document.querySelector("#telefon");
 const dia = document.querySelector("#dia");
 const hora = document.querySelector("#hora");
+const mensaje = document.querySelector("#mensaje");
 
 form.onsubmit = function (event) {
     form.querySelectorAll("input").forEach(element => {
@@ -14,6 +15,8 @@ form.onsubmit = function (event) {
         event.preventDefault();
         event.stopPropagation();
         alert("Revisau les errades abans de continuar");
+    }else{
+        mensaje.textContent="Reserva realitzada.";
     }
     form.classList.add('was-validated');
 };

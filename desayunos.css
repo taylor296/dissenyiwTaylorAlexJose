@@ -25,11 +25,17 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: gray;
+    width: 100%;
     padding: 1%;
 }
 
-a {
-    text-decoration: none;
+#arriba, #abajo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    padding: 1%;
 }
 
 button {
@@ -38,6 +44,10 @@ button {
     background-color: darkred;
     color: white;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 button:hover {
@@ -91,4 +101,10 @@ h1 {
     background-image: url(./img/desayunos/brie.jpg);
     display: flex;
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .botones{
+        flex-wrap: wrap;
+    }
 }
