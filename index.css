@@ -33,3 +33,50 @@ td.closed {
     padding-left: 5%;
     width: 100%;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        text-align: center;
+        padding-left: 20%;
+    }
+    .navbar div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img.logo {
+        max-width: 100%;
+        height: auto;
+        order: 2;
+        margin-bottom: 10px; /* Espaciado opcional entre la imagen y el span */
+    }
+
+    .fs-4 {
+        order: 1;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #dc3545;
+    }
+
+    #menu h1 {
+        font-size: 2rem;
+    }
+
+    .mapaHorario {
+        flex-direction: column;
+    }
+
+    .horario {
+        padding-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
